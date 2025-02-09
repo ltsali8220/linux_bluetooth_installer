@@ -32,7 +32,7 @@ cd linux_bluetooth_installer
 Once you have the enable_bluetooth.sh script, you need to make it executable. Open a terminal in the directory where the script is located, then run:
 
 ```bash
-chmod +x enable_bluetooth.sh
+chmod +x in_bluetooth.sh
 ```
 
 ### How to Use
@@ -40,7 +40,7 @@ chmod +x enable_bluetooth.sh
 To run the script, simply execute it in your terminal:
 
 ```bash
-./enable_bluetooth.sh
+./in_bluetooth.sh
 ```
 
 ### What Happens When You Run the Script:
@@ -93,12 +93,11 @@ git commit -am 'Add new feature or fix issue'
 ```bash
 git push origin feature-branch
 ```
-
+-
 6. Create a Pull Request to the main repository.
 
 License
-This project is licensed under the MIT License. See the LICENSE file for details.
-
+This project is licensed under the [MIT License](LICENSE). See the LICENSE file for details.
 
 Example of Creating the Script:
 If you want to create your own version of this script:
@@ -106,8 +105,8 @@ If you want to create your own version of this script:
 Create a new file named enable_bluetooth.sh:
 
 ```bash
-
 nano enable_bluetooth.sh
+```
 Add the script content (you can copy the previous script I provided for enabling Bluetooth).
 
 Save and exit the file:
@@ -119,11 +118,9 @@ Make the script executable:
 
 ```bash
 chmod +x enable_bluetooth.sh
-
+```
 Now you have your custom enable_bluetooth.sh script ready to use and share!
 
--
-You can replace the content of your `README.md` file with the above content. Let me know if you need any further assistance!
-You can replace the content of your `README.md` file with the above content. Let me know if you need any further assistance!
+
 
 
