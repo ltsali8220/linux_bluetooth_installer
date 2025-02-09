@@ -35,7 +35,7 @@ Once you have the enable_bluetooth.sh script, you need to make it executable. Op
 chmod +x in_bluetooth.sh
 ```
 
-### How to Use
+### 3. How to Use
 
 To run the script, simply execute it in your terminal:
 
@@ -93,7 +93,6 @@ git commit -am 'Add new feature or fix issue'
 ```bash
 git push origin feature-branch
 ```
--
 6. Create a Pull Request to the main repository.
 
 License
@@ -105,16 +104,16 @@ If you want to create your own version of this script:
 Create a new file named enable_bluetooth.sh:
 
 ```bash
-nano enable_bluetooth.sh
+nano script.sh
 ```
 Add the script content (you can copy the previous script I provided for enabling Bluetooth).
 
 Save and exit the file:
 
-Press CTRL + X to exit.
-Press Y to save.
-Press Enter to confirm the filename.
-Make the script executable:
+- Press CTRL + X to exit.
+- Press Y to save.
+- Press Enter to confirm the filename.
+- Make the script executable:
 
 ```bash
 chmod +x enable_bluetooth.sh
